@@ -1,0 +1,6 @@
+private String getPicture() {
+                SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss"); // data si ora
+                String timestamp = sdf.format(new Date());
+                return timestamp +".jpg";
+
+            }
